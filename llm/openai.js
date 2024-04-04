@@ -1,7 +1,7 @@
 import { ChatOpenAI } from "@langchain/openai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import dotenv from "dotenv";
-dotenv.config({ path: "./.env.local" });
+dotenv.config({ path: "../.env.local" });
 
 console.log(process.env.OPENAI_API_KEY);
 
